@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.helper.ConfigurationReader.getBrowser(ConfigurationReader.java:20)\r\n\tat com.stepdefinition.StepDefinion.user_launch_the_url(StepDefinion.java:26)\r\n\tat ✽.user launch the url(file:///C:/Users/pavithra/eclipse-workspace/WorkOut/src/test/resources/features/work.feature:5)\r\n",
+              "duration": 23000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user launch the url",
+            "match": {
+              "location": "com.stepdefinition.StepDefinion.user_launch_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-27T07:58:57.837Z",
+        "line": 7,
+        "name": "user go to logion page",
+        "description": "",
+        "id": "user-booking-the-room;user-go-to-logion-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user fill the username and password",
+            "match": {
+              "location": "com.stepdefinition.StepDefinion.user_fill_the_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "suryajoo"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Sharma@45"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click the login button",
+            "match": {
+              "location": "com.stepdefinition.StepDefinion.user_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.helper.ConfigurationReader.getBrowser(ConfigurationReader.java:20)\r\n\tat com.stepdefinition.StepDefinion.user_launch_the_url(StepDefinion.java:26)\r\n\tat ✽.user launch the url(file:///C:/Users/pavithra/eclipse-workspace/WorkOut/src/test/resources/features/work.feature:5)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user launch the url",
+            "match": {
+              "location": "com.stepdefinition.StepDefinion.user_launch_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-27T07:58:58.619Z",
+        "line": 15,
+        "name": "user go to logion page",
+        "description": "",
+        "id": "user-booking-the-room;user-go-to-logion-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user fill the username and password",
+            "match": {
+              "location": "com.stepdefinition.StepDefinion.user_fill_the_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "santhosh"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Sharma"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user click the login button",
+            "match": {
+              "location": "com.stepdefinition.StepDefinion.user_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user throw the message\"Invalid Login details or Your Password might have expired. Click here to reset your password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login details or Your Password might have expired. Click here to reset your password\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.StepDefinion.user_throw_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user booking the room",
+    "description": "",
+    "id": "user-booking-the-room",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/work.feature",
+    "tags": []
+  }
+]
